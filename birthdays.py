@@ -4,8 +4,8 @@ while True:
     name = input()
     if name == '':
          break
-    if name in birthdays: # ❷ 
-        print( name + 'の 誕生日 は' + birthdays[ name]) # ❸ 
+    if name in birthdays: # 
+        print( name + 'の 誕生日 は' + birthdays[ name]) 
     else:
         print( name + 'の 誕生日 は 未登録 です。') 
         print(' 誕生日 を 入力 してください:') 
